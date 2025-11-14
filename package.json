@@ -2,9 +2,9 @@
   "name": "study-night",
   "version": "1.0.0",
   "description": "A StudyNight web application for flashcards, navigation, and study tools.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,13 @@
   "homepage": "https://github.com/MohammadSalameh10/Production#readme",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "chai": "^6.2.1",
     "eslint": "^9.39.1",
-    "globals": "^16.5.0"
+    "globals": "^16.5.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.5",
+    "parcel": "^2.16.1"
   }
 }

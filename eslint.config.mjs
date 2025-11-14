@@ -5,13 +5,18 @@ import pluginJs from "@eslint/js";
 export default [
   pluginJs.configs.recommended,
   {
-    languageOptions: { globals: globals.browser },
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        ...globals.mocha,
+      },
+    },
     rules: {
       "no-var": "error",
       "no-unused-vars": "error",
-      "semi": ["error", "always"],
-      "eqeqeq": ["error", "always"],
-      "quotes": ["error", "double"]
-    }
-  }
+      semi: ["error", "always"],
+      eqeqeq: ["error", "always"],
+      quotes: ["error", "double"],
+    },
+  },
 ];
