@@ -9,6 +9,7 @@ export default [
       globals: {
         ...globals.browser,
         ...globals.mocha,
+        ...globals.cypress,
       },
     },
     rules: {

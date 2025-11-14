@@ -4,7 +4,8 @@
   "description": "A StudyNight web application for flashcards, navigation, and study tools.",
   "scripts": {
     "test": "gulp test",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "cypress": "gulp cypress"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "chai": "^6.2.1",
+    "cypress": "^15.6.0",
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
     "gulp": "^5.0.1",
