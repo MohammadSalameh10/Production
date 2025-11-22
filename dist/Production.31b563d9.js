@@ -207,11 +207,11 @@
       });
     }
   }
-})({"5j6Kf":[function(require,module,exports,__globalThis) {
+})({"4eoHl":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 50538;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -1031,10 +1031,10 @@ const createElement = (elementType, text)=>{
 };
 //Creates images with alt
 const createImage = (url, alt)=>{
-    const img = document.createElement("img");
-    img.src = url;
-    img.alt = alt;
-    return img;
+    const image = document.createElement("img");
+    image.src = url;
+    image.alt = alt;
+    return image;
 };
 // Create a header element with specified text and data attribute
 const createHeader = (headerType, text, dataCy)=>{
@@ -1197,7 +1197,7 @@ const renderAboutPage = ()=>{
     main.append(containerOuter);
 };
 
-},{"../images/aboutImage.png":"khGba","./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"khGba":[function() {},{}],"bA49a":[function(require,module,exports,__globalThis) {
+},{"./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","../images/aboutImage.png":"khGba"}],"khGba":[function() {},{}],"bA49a":[function(require,module,exports,__globalThis) {
 //DO NOT CHANGE ANYTHING IN THIS FILE//
 // This file is responsible for loading the home page
 //Imports image for homepage
@@ -1226,6 +1226,6 @@ const renderHomePage = ()=>{
     main.append(homeContainer);
 };
 
-},{"../images/homePage.png":"4K0cp","./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"4K0cp":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequireccf0", {})
+},{"../images/homePage.png":"4K0cp","./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"4K0cp":[function() {},{}]},["4eoHl","a0t4e"], "a0t4e", "parcelRequireccf0", {})
 
 //# sourceMappingURL=Production.31b563d9.js.map

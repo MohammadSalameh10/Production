@@ -1,5 +1,6 @@
 describe("Navigation menu", () => {
   beforeEach(() => {
+    cy.viewport(1600, 1000);
     cy.visit("http://localhost:1234");
   });
 
